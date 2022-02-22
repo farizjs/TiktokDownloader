@@ -1,0 +1,40 @@
+{
+  "name": "TikTok Downloader Bot",
+  "description": "Bot Telegram untuk mengunduh video TikTok tanpa watermark",
+  "logo" : "",
+  "success_url" : "https://t.me/About_Farizsj",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tiktok",
+    "jaybee"
+  ],
+  "repository": "https://github.com/farizjs/TiktokDownloader",
+  "website": "https://github.com/farizjs/TiktokDownloader",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot Token bot Anda, dapatkan ini dari @BotFather.",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "API ID Anda, dapatkan ini dari https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "API HASH Anda, dapatkan ini dari https://my.telegram.org",
+     "value": ""
+    },
+    "CHANNEL_URL": {
+      "description": "URL tautan channel Telegram Anda.",
+      "value": ""
+    },
+    "BOT_URL": {
+      "description": "Username Bot Telegram Anda (tanpa @). Contoh: TiktokDlRobot",
+      "value": ""
+    },
+    "WORKERS": {
+      "description": "Jumlah utas yang digunakan, ini tergantung pada penggunaan. 4 adalah jumlah yang disarankan (dan default), tetapi pengalaman Anda mungkin berbeda.",
+      "value": "4"
+    }
+  }
+}
